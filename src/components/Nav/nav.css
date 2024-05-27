@@ -1,0 +1,127 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    min-height: 75px;
+    background-color:#004AAD; 
+    /* position: fixed; */
+}
+.navbar__logo{
+    display: none;
+}
+.navbar__logo2 img{
+    width: 15rem;
+}
+.navbar__links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbar__link{
+    padding: 0 0.3rem;
+    color:#7ED957;
+    font-size: 25px;
+    font-weight: 900;
+}
+.navbar__link:hover{
+    text-decoration: overline #7ED957;
+}
+.navbar__burger{
+    width: 40px;
+    height: 40px;
+    background: #7ED957;
+    color: #004AAD;
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .navbar__links{
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        align-items: center;
+        width: 0;
+        right: -100vw;
+        bottom: 0;
+        height: 100vh;
+        padding: 2rem;
+        visibility: hidden;
+        background-color:#004AAD; 
+        transition: all .8s ease-out;
+    }
+
+    .show-nav .navbar__links{
+        right:0;
+        width: 100vw;
+        visibility: visible;
+    }
+    .nav__items::after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 3vw;
+        height: 1px;
+        background: white;
+    }
+    .nav__items:last-child:after{
+        display: none;
+    }
+    .navbar__link{
+        display: block;
+        padding: 1.5rem;
+        font-size: 5vw;
+    }
+    .navbar__burger {
+        display: block;
+        position: fixed;
+        right: 1rem;
+    }
+    .navbar__burger:hover{
+        cursor: pointer;
+    }
+    .burger-bar,
+    .burger-bar::before,
+    .burger-bar::after{
+        display: block;
+        width: 36px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background: white;
+        transition: all .5s ease-in-out;
+    }
+    .burger-bar::before,
+    .burger-bar::after{
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+    .burger-bar::before{
+        transform: translateY(-12px);
+    }
+    .burger-bar::after{
+        transform: translateY(12px);
+    }
+    .show-nav .burger-bar::after{
+        transform: rotate(45deg);
+    }
+    .show-nav .burger-bar::before{
+        transform: rotate(-45deg);
+    }
+    .show-nav .burger-bar{
+        width: 0;
+        background: transparent;
+    }
+    .navbar__logo2{
+        display: none;
+    }
+    .navbar__logo{
+        display: flex;
+    }
+    .navbar__logo img{
+        width: 15rem;
+    }
+}

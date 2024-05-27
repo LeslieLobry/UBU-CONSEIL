@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+}
+body{
+    margin: 0;
+    font-family: "Kalnia", serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    min-height:200vh ;
+    padding: 11rem 1rem 1rem;
+}
+@media screen and (max-width: 950px){
+
+}
