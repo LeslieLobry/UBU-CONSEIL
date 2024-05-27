@@ -2,3 +2,11 @@
 .footer-logo img{
     width: 15rem;
 }
+.footer-component{
+    background-color: #004AAD;
+    display: flex;
+    align-items: center;
+}
+.footer-link img{
+    width: 8rem;
+}
