@@ -1,8 +1,8 @@
-
+import Presentation from "../components/Presentation/presentation"
 
 function Home (){
     return(
-        <h1>hello </h1>
+       <Presentation/>
     )
 }
 export default Home
