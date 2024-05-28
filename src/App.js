@@ -3,6 +3,7 @@ import "./app.css"
 import Home from "./pages/Home";
 import Header from "../src/components/Header/header"
 import Footer from "../src/components/Footer/footer"
+import Contact from "./pages/Contact/contact.jsx"
 function App() {
   return (
     <div>
@@ -10,9 +11,9 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="*" element={<Error />} />
+          {/* <Route path="*" element={<Error />} /> */}
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
+          {/* <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Compétences" element={<Compétences />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Tarifs" element={<Tarifs />} />

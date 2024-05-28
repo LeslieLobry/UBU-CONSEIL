@@ -6,7 +6,40 @@
     background-color: #004AAD;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
 }
 .footer-link img{
     width: 8rem;
+}
+.footer-mentions{
+    color: white;
+}
+.footer-contact{
+    padding: 1rem;
+    width: 13rem;
+    background-color: #7ED957;
+    border-radius: 25px;
+}
+.footer-elmt{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+@media screen and (max-width: 950px){
+    .footer-component{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .footer-elmt{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: row;
+    }
+    .footer-link img{
+        width: 5rem;
+    }
 }

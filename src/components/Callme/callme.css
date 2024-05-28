@@ -1,0 +1,8 @@
+.callme-contenant{
+    border-radius: 25px;
+    padding: 7px;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
