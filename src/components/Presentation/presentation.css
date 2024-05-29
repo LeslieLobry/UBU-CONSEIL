@@ -1,4 +1,23 @@
 .presentation-contenant{
     display: flex;
     align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.presentation-texte{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    gap: 25px;
+    flex-direction: column;
+}
+.presentation-texte p{
+    font-size: 18px;
+}
+.presentation-elmt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }

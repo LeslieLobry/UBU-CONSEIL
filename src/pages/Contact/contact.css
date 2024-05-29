@@ -1,0 +1,31 @@
+.contact-contenant{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.contact-logo img{
+    width: 30rem;
+}
+.contact-logo-coordonnee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.contact-coordonnee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-coordonnee p{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 950px){
+    .contact-contenant{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
