@@ -1,11 +1,16 @@
 import "./presentation.css"
-import Lobryseb from "../../assets/Lobryseb.jpg"
+import seb from "../../assets/seb.png"
+import baniere from "../../assets/baniere.png"
 
 function Presentation (){
     return(
         <div className="presentation-contenant">
             <div className="presentation-photo">
-                <img src={Lobryseb} alt="sébastien lobry, herlies" />
+                <img src={seb} alt="sébastien lobry, herlies" />
+            </div>
+            <div className="presentation-baniere">
+                <img src={baniere} alt="ubu conseils" />
+
             </div>
             <div className="presentation-texte">
                 <p>Après 28 ans passés en tant que salariés dans un bureau de contrôle, il était temps pour nous de créer notre propre entreprise.

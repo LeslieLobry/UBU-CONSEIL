@@ -1,1 +1,4 @@
-
+.presentation-contenant{
+    display: flex;
+    align-items: center;
+}
