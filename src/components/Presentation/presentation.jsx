@@ -4,16 +4,12 @@ import seb from "../../assets/seb.png"
 
 function Presentation (){
     return(
+        <div className="presentation">
+            <h1 className="presentation-title">UBU CONSEILS</h1>
         <div className="presentation-contenant">
-            <h1 className="title">UBU CONSEILS</h1>
             <div className="presentation-photo">
                 <img src={seb} alt="sébastien lobry, herlies" />
             </div>
-            <div className="presentation-elmt">
-                 {/* <div className="presentation-baniere">
-                <img src={baniere} alt="ubu conseils" />
-
-            </div> */}
             <div className="presentation-texte">
                 <p className="1">Après 28 ans passés en tant que salariés dans un bureau de contrôle, il était temps pour nous de créer notre propre entreprise.
 Notre volonté, soutenue par une solide expérience professionnelle, est d’être à l’écoute de nos clients partenaires et de les accompagner dans la recherche de solutions adaptées et optimisées.</p>
@@ -24,8 +20,7 @@ Enfin, nous sommes en mesure de réaliser votre document unique d’évaluation 
 Basés en banlieue lilloise, nous intervenons dans l’ensemble des Hauts-de-France ainsi que sur le plan national.</p>
             </div>
             </div>
-           
-        </div>
+            </div>
     )
 }
 export default Presentation
