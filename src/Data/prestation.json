@@ -1,0 +1,72 @@
+[
+    {
+        "id":"11",
+        "titre":"Evaluation des risques professionnels liés aux bâtiments",
+        "image": "https://i.postimg.cc/26mmBwzd/RISQUE-PROF-BATIMENTS.png", 
+        "list":[
+            "Audit des obligations réglementaires",
+        "Etablissement des résultats de l’évaluation des risques",
+        "Proposition de plan d’action visant à limiter les risques" ,
+        "Analyses des non-conformités relevées" ,
+        "Préconisation d’un plan d’action" ,
+        "Suivi des prestataires de contrôles, de maintenance, de travaux",
+        "Assistance à la passation des marchés de contrôles réglementaires."
+        ]
+    },
+    {
+        "id":"12",
+        "titre": "Assistance Maîtrise Ouvrage – Accompagnement obligations réglementaires ",
+        "image": "https://i.postimg.cc/sXVLPHbc/AMO2.jpg", 
+        "list":[
+            "Assistance à la consultation des marchés publics ou privés de contrôle réglementaire",
+            "Assistance à la passation et au suivi des marchés publics ou privés de contrôle réglementaire",
+            "Aide à la décision" ,
+            "Veille réglementaire des obligations réglementaires",
+            "Aide à la gestion des contrats"
+        ]
+    },
+    {
+        "id":"13",
+        "titre": "Assistance technique à l'auto-évaluation de la qualité de l'air intérieure",
+        "image": "https://i.postimg.cc/dVNRNH76/image-de-creche-qualite-air-interieure-3.jpg", 
+        "list":[
+            "Evaluation des moyens d’aération", 
+            "Assistance à la mise en œuvre du guide d’auto-évaluation",
+            "Préconisation d’un plan d’action et de mesure",
+            "Échéances réglementaires :",
+            "Crèches, écoles maternelles et élémentaires  01/01/2018",
+            "Accueil de loisirs, établissements 2ND degré 01/01/2020",
+            "Structures sociales et médico sociales, piscines, établissement pénitentiaire pour mineurs, etc…"   
+        ]
+    },
+    {
+        "id":"14",
+        "titre": "Assistance technique aux équipements de travail (EPI – LEVAGE – MACHINES)",
+        "image": "https://i.postimg.cc/PJ834GfB/EPI3.png", 
+        "list":[
+            "Assistance technique à la conception / évaluation de conformité machines neuves (F)",
+            "Evaluation de la conformité machines neuves, d’occasions ou en services (U)",
+            "Diagnostic de conformité sur les équipements anciens ou avant modification ",
+            "Assistance à la réalisation des analyses de risques" ,
+            "Assistance à la détermination du PLR des fonctions de sécurité (norme ISO en 13 849-1)",
+            "Calcul du PL atteint",
+            "Assistance à la réalisation du dossier technique ",
+            "Assistance à la rédaction de la notice d’instruction ",
+            "Evaluation de la conformité des équipements" ,
+            "Assistance à la modification des équipements ",
+            "Assistance à la rédaction de procédure d’interventions"
+        ]  
+      },
+    {
+        "id":"15",
+        "titre": "Documents Unique d’ Evaluations des Risques",
+        "image": "https://i.postimg.cc/Y0kR1vVm/panneau-document-unique-d-evaluation-des-risques-a0333.jpg", 
+        "list":[
+            "Audit et identification de l’ensemble des risques",
+            "Etablissement des résultats de l’évaluation des risques pour la santé et la sécurité du personnel au sein de l’établissement au sein du DUER",
+            "Proposition de plan d’action visant à limiter les risques" ,
+            "Analyses des non-conformités relevées",
+            "Préconisation d’un plan d’action"
+        ]
+    }
+]

@@ -8,6 +8,7 @@
 .presentation-contenant{
     display: flex;
     align-items: center;
+    margin: 1%;
 }
 .presentation-texte{
     display: flex;
