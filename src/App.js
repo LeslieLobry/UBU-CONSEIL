@@ -5,6 +5,7 @@ import Header from "../src/components/Header/header"
 import Footer from "../src/components/Footer/footer"
 import Contact from "./pages/Contact/contact.jsx"
 import Services from "./pages/Services/services.jsx";
+import Categorie from "./pages/Categorie/categorie.jsx"
 function App() {
   return (
     <div>
@@ -15,8 +16,8 @@ function App() {
           {/* <Route path="*" element={<Error />} /> */}
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
-          {/* <Route path="/Compétences" element={<Compétences />} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="/Categorie/:id" element={<Categorie />} />
+          {/* <Route path="/Services" element={<Services />} />
           <Route path="/Tarifs" element={<Tarifs />} />
           <Route path="/Mentions" element={<Mentions />} /> */}
         </Routes>

@@ -3,7 +3,7 @@
         "id":"11",
         "titre":"Evaluation des risques professionnels liés aux bâtiments",
         "image": "https://i.postimg.cc/26mmBwzd/RISQUE-PROF-BATIMENTS.png", 
-        "list":[
+        "details":[
             "Audit des obligations réglementaires",
         "Etablissement des résultats de l’évaluation des risques",
         "Proposition de plan d’action visant à limiter les risques" ,
@@ -17,7 +17,7 @@
         "id":"12",
         "titre": "Assistance Maîtrise Ouvrage – Accompagnement obligations réglementaires ",
         "image": "https://i.postimg.cc/sXVLPHbc/AMO2.jpg", 
-        "list":[
+        "details":[
             "Assistance à la consultation des marchés publics ou privés de contrôle réglementaire",
             "Assistance à la passation et au suivi des marchés publics ou privés de contrôle réglementaire",
             "Aide à la décision" ,
@@ -29,7 +29,7 @@
         "id":"13",
         "titre": "Assistance technique à l'auto-évaluation de la qualité de l'air intérieure",
         "image": "https://i.postimg.cc/dVNRNH76/image-de-creche-qualite-air-interieure-3.jpg", 
-        "list":[
+        "details":[
             "Evaluation des moyens d’aération", 
             "Assistance à la mise en œuvre du guide d’auto-évaluation",
             "Préconisation d’un plan d’action et de mesure",
@@ -43,7 +43,7 @@
         "id":"14",
         "titre": "Assistance technique aux équipements de travail (EPI – LEVAGE – MACHINES)",
         "image": "https://i.postimg.cc/PJ834GfB/EPI3.png", 
-        "list":[
+        "details":[
             "Assistance technique à la conception / évaluation de conformité machines neuves (F)",
             "Evaluation de la conformité machines neuves, d’occasions ou en services (U)",
             "Diagnostic de conformité sur les équipements anciens ou avant modification ",
@@ -61,7 +61,7 @@
         "id":"15",
         "titre": "Documents Unique d’ Evaluations des Risques",
         "image": "https://i.postimg.cc/Y0kR1vVm/panneau-document-unique-d-evaluation-des-risques-a0333.jpg", 
-        "list":[
+        "details":[
             "Audit et identification de l’ensemble des risques",
             "Etablissement des résultats de l’évaluation des risques pour la santé et la sécurité du personnel au sein de l’établissement au sein du DUER",
             "Proposition de plan d’action visant à limiter les risques" ,

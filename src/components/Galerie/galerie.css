@@ -1,14 +1,10 @@
 .galerie{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
     align-content: center;
-    animation: backInLeft;
-    animation-duration: 5s;
-}
-.galerie-img{
-    width: 100%;
+    gap: 5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .galerie-img img{
     width: 100%;
@@ -18,22 +14,11 @@
 .galerie-contenant{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
-    position: relative;
+    gap: 1rem;
 }
-.galerie-titre{
-    display: flex;
-    position: absolute;
-    background-color: #08473c;
-    width: 100%;
-    justify-content: center;
-    color: white;
-    animation: backInUp;
-    animation-duration: 4s;
-}
-.galerie-titre h2 {
-    animation:pulse 4s infinite;
+.galerie-title h2 {
+    color: black;
 }
 
 @media screen and (max-width: 950px){

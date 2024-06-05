@@ -1,0 +1,19 @@
+.categorie-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.categorie-titre{
+    display: flex;
+    justify-content: center;
+}
+.categorie-contenant{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.categorie-elmt{
+    display: flex;
+    align-items: center;
+}
