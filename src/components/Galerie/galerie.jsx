@@ -10,7 +10,7 @@ function Galerie ()
                 <Link to={`/Categorie/${product.id}`}>
                <div key={product.id} className="galerie-contenant">
                 <div className="galerie-title">
-                    <h2>{product.titre}</h2>
+                    <h2>{product.titre2}</h2>
                 </div>
                 <div className="galerie-img">
                     <img src={product.image} alt="sécurité incendie Haut-De-France"></img>

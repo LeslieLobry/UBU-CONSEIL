@@ -1,11 +1,12 @@
 [
     {
         "id":"11",
-        "titre":"Evaluation des risques professionnels liés aux bâtiments",
+        "titre2":"Évalution des risques professionnels",
+        "titre":"Évaluation des risques professionnels liés aux bâtiments",
         "image": "https://i.postimg.cc/26mmBwzd/RISQUE-PROF-BATIMENTS.png", 
         "details":[
             "Audit des obligations réglementaires",
-        "Etablissement des résultats de l’évaluation des risques",
+        "Établissement des résultats de l’évaluation des risques",
         "Proposition de plan d’action visant à limiter les risques" ,
         "Analyses des non-conformités relevées" ,
         "Préconisation d’un plan d’action" ,
@@ -14,7 +15,8 @@
         ]
     },
     {
-        "id":"12",
+        "id":"12", 
+        "titre2":"Assistance Maîtrise Ouvrage",
         "titre": "Assistance Maîtrise Ouvrage – Accompagnement obligations réglementaires ",
         "image": "https://i.postimg.cc/sXVLPHbc/AMO2.jpg", 
         "details":[
@@ -27,6 +29,7 @@
     },
     {
         "id":"13",
+        "titre2":"Évaluation de la qualité de l'air intérieure",
         "titre": "Assistance technique à l'auto-évaluation de la qualité de l'air intérieure",
         "image": "https://i.postimg.cc/dVNRNH76/image-de-creche-qualite-air-interieure-3.jpg", 
         "details":[
@@ -41,6 +44,7 @@
     },
     {
         "id":"14",
+        "titre2":"Assistance technique aux équipements de travail",
         "titre": "Assistance technique aux équipements de travail (EPI – LEVAGE – MACHINES)",
         "image": "https://i.postimg.cc/PJ834GfB/EPI3.png", 
         "details":[
@@ -59,7 +63,8 @@
       },
     {
         "id":"15",
-        "titre": "Documents Unique d’ Evaluations des Risques",
+        "titre2":"Documents Unique d’Évaluations des Risques",
+        "titre": "Documents Unique d’Évaluations des Risques",
         "image": "https://i.postimg.cc/Y0kR1vVm/panneau-document-unique-d-evaluation-des-risques-a0333.jpg", 
         "details":[
             "Audit et identification de l’ensemble des risques",
