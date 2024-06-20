@@ -1,8 +1,10 @@
 .categorie-list{
-    list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+    flex-basis: 50%;
+    /* align-items: center; */
+    list-style: circle
 }
 .categorie-titre{
     display: flex;
@@ -12,8 +14,31 @@
     display: flex;
     gap: 25px;
     flex-direction: column;
+    margin: 1%;
 }
 .categorie-elmt{
     display: flex;
     align-items: center;
+}
+.categorie-img{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 950px){
+    .categorie-contenant{
+        margin: 3%;
+    }
+    .categorie-elmt{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .categorie-img img{
+        width: 100%;
+    }
+    .categorie-titre h2{
+        font-size: 19px;
+    }
 }
